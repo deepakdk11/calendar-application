@@ -1,10 +1,11 @@
 import React from "react"
+import MyCalendar from "./components/MyCalendar"
+
 
 function App() {
-
   return (
     <div className="app">
-      <h1 className="text-4xl">Hello world!</h1>
+      <MyCalendar />
     </div>
   )
 }
